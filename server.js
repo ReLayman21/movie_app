@@ -4,7 +4,7 @@ const http = require("http"),
 
 http
   .createServer((request, response) => {
-    let adddr = request.url,
+    let addr = request.url,
       q = url.parse(addr, true),
       filePath = "";
 
